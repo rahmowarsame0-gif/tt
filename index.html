@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP.CO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+    <!-- Header -->
+    <header class="flex justify-between items-center px-6 py-5 shadow">
+        <h1 class="text-2xl font-bold">
+            SHOP.CO
+        </h1>
+        <nav class="hidden md:flex gap-8">
+            <a href="#" class="hover:text-gray-500">Home</a>
+            <a href="#shop" class="hover:text-gray-500">Shop</a>
+            <a href="#brands" class="hover:text-gray-500">Brands</a>
+            <a href="#contact" class="hover:text-gray-500">Contact</a>
+        </nav>
+        <a href="#shop"
+           class="bg-black text-white px-5 py-2 rounded-full">
+            Shop
+        </a>
+    </header>
+    <!-- Hero Section -->
+    <section class="bg-gray-100 px-6 py-16 md:flex items-center">
+        <div class="md:w-1/2">
+            <h2 class="text-4xl md:text-6xl font-bold leading-tight">
+                FIND CLOTHES <br>
+                THAT MATCHES <br>
+                YOUR STYLE
+            </h2>
+            <p class="text-gray-600 mt-5 max-w-md">
+                Discover beautiful and stylish clothes.
+                Find your favorite fashion and express
+                your personality with SHOP.CO.
+            </p>
+            <a href="#shop"
+               class="inline-block bg-black text-white px-8 py-3 rounded-full mt-6 hover:bg-gray-700">
+                Shop Now
+            </a>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+            <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+                alt="Fashion Models"
+                class="w-full h-80 md:h-96 object-cover rounded-lg">
+        </div>
+    </section>
+    <!-- Brands -->
+    <section id="brands"
+             class="bg-black text-white flex justify-around items-center flex-wrap gap-6 py-8">
+        <h2 class="text-2xl font-bold">ZARA</h2>
+        <h2 class="text-2xl font-bold">GUCCI</h2>
+        <h2 class="text-2xl font-bold">PRADA</h2>
+        <h2 class="text-2xl font-bold">NIKE</h2>
+    </section>
+    <!-- New Arrivals -->
+    <section id="shop" class="px-6 py-16">
+        <h2 class="text-3xl font-bold text-center mb-10">
+            NEW ARRIVALS
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Product 1 -->
+            <div class="bg-gray-100 rounded-xl p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+                    alt="Black T-shirt"
+                    class="w-full h-48 object-cover rounded-lg">
+                <h3 class="font-semibold mt-4">
+                    T-shirt with Tape Details
+                </h3>
+                <p class="font-bold mt-2">
+                    $120
+                </p>
+                <button
+                    class="bg-black text-white w-full py-2 rounded-full mt-4 hover:bg-gray-700">
+                    Add to Cart
+                </button>
+            </div>
+            <!-- Product 2 -->
+            <div class="bg-gray-100 rounded-xl p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=80"
+                    alt="Blue Jeans"
+                    class="w-full h-48 object-cover rounded-lg">
+                <h3 class="font-semibold mt-4">
+                    Skinny Fit Jeans
+                </h3>
+                <p class="font-bold mt-2">
+                    $240
+                </p>
+                <button
+                    class="bg-black text-white w-full py-2 rounded-full mt-4 hover:bg-gray-700">
+                    Add to Cart
+                </button>
+            </div>
+            <!-- Product 3 -->
+            <div class="bg-gray-100 rounded-xl p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=500&q=80"
+                    alt="Checkered Shirt"
+                    class="w-full h-48 object-cover rounded-lg">
+                <h3 class="font-semibold mt-4">
+                    Checkered Shirt
+                </h3>
+                <p class="font-bold mt-2">
+                    $180
+                </p>
+                <button
+                    class="bg-black text-white w-full py-2 rounded-full mt-4 hover:bg-gray-700">
+                    Add to Cart
+                </button>
+            </div>
+            <!-- Product 4 -->
+            <div class="bg-gray-100 rounded-xl p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=500&q=80"
+                    alt="Orange T-shirt"
+                    class="w-full h-48 object-cover rounded-lg">
+                <h3 class="font-semibold mt-4">
+                    Striped T-shirt
+                </h3>
+                <p class="font-bold mt-2">
+                    $150
+                </p>
+                <button
+                    class="bg-black text-white w-full py-2 rounded-full mt-4 hover:bg-gray-700">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <!-- View All -->
+        <div class="text-center mt-10">
+            <button
+                class="border border-black px-10 py-3 rounded-full hover:bg-black hover:text-white">
+                View All
+            </button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-100 px-6 py-12">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h2 class="text-2xl font-bold">
+                    SHOP.CO
+                </h2>
+                <p class="text-gray-600 mt-4">
+                    Find clothes that match your style.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-bold mb-4">
+                    COMPANY
+                </h3>
+                <p class="text-gray-600 mb-2">About</p>
+                <p class="text-gray-600 mb-2">Features</p>
+                <p class="text-gray-600 mb-2">Works</p>
+                <p class="text-gray-600">Career</p>
+            </div>
+            <div>
+                <h3 class="font-bold mb-4">
+                    HELP
+                </h3>
+                <p class="text-gray-600 mb-2">Customer Support</p>
+                <p class="text-gray-600 mb-2">Delivery Details</p>
+                <p class="text-gray-600 mb-2">Terms & Conditions</p>
+                <p class="text-gray-600">Privacy Policy</p>
+            </div>
+            <div>
+                <h3 class="font-bold mb-4">
+                    RESOURCES
+                </h3>
+                <p class="text-gray-600 mb-2">Free eBooks</p>
+                <p class="text-gray-600 mb-2">Fashion Tips</p>
+                <p class="text-gray-600 mb-2">Blog</p>
+                <p class="text-gray-600">YouTube</p>
+            </div>
+        </div>
+        <div class="border-t mt-10 pt-6 text-center text-gray-500">
+            <p>
+                © 2026 SHOP.CO. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
